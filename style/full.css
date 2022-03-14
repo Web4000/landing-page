@@ -12,7 +12,6 @@ html{
     box-sizing: border-box;
     text-decoration: none;
     outline: none; border:none;
-    text-transform: capitalize;
 	font-size: 14px;
 
 }
