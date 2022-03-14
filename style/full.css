@@ -106,7 +106,7 @@ menu label{
     opacity: 0;
 }
 
-.home{
+.banner{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -116,7 +116,7 @@ menu label{
     height: 70vh;
 }
 
-.home .image img{
+.banner .image img{
     width:40vw;
     animation: float 3s linear infinite;
 	     
@@ -124,21 +124,21 @@ menu label{
 
 
 
-.home .content h3{
+.banner .content h3{
     font-size: 40px;
     color:#333;
     text-transform: uppercase;
 	    text-align: center;
 }
 
-.home .content h3 span{
+.banner .content h3 span{
     color:var(--bluelight);
     text-transform: uppercase;
 	    text-align: center;
 	    
 }
 
-.home .content p{
+.banner .content p{
     font-size: 16px;
     color:#666;
     padding:16px 0;
@@ -434,19 +434,19 @@ menu label{
         content:'\f00d';
     }
 
-    .home{
+    .banner{
         flex-flow: column-reverse;
     }
 
-    .home .image img{
+    .banner .image img{
         width:100%;
     }
 
-    .home .content h3{
+    .banner .content h3{
         font-size: 36px;
     }
 
-    .home .content p{
+    .banner .content p{
         font-size: 14px;
     }
 
