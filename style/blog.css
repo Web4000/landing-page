@@ -1,0 +1,37 @@
+
+
+.blog .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog .box-container .box{
+    flex:1 1 30rem;
+    background:#fff;
+    border-radius: .5rem;
+    border:.16px solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
+    margin:1.5rem;
+    padding:48px 32px;
+    border-radius: .5rem;
+    text-align: center;
+    transition: .2s linear;
+}
+
+.blog .box-container .box img{
+    height: 15rem;
+}
+
+.blog .box-container .box h3{
+    font-size: 32px;
+    color:#333;
+    padding-top: 16px;
+}
+
+.blog .box-container .box p{
+    font-size: 1.48px;
+    color:#666;
+    padding: 16px 0;
+}

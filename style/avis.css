@@ -1,0 +1,52 @@
+
+.avis .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.avis .box-container .box{
+    background:#fff;
+    margin:10px;
+    padding:1px;
+    text-align: center;
+    position: relative;
+    border:.16px solid rgba(0,0,0,.2);
+    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
+    flex:1 1 30rem;
+    border-radius: .5rem;
+}
+
+.avis .box-container .box .fa-quote-right{
+    position: absolute;
+    top:16px; right:32px;
+    font-size: 8rem;
+    color:var(--pink);
+    opacity: .3;
+}
+
+.avis .box-container .box .user img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 7rem;
+    width:7rem;
+    margin-top: 32px;
+}
+
+.avis .box-container .box .user h3{
+    color:var(--pink);
+    font-size: 32px;
+}
+
+.avis .box-container .box .user .stars i{
+    color:var(--purple);
+    font-size: 1.5rem;
+    padding:16px 0;
+}
+
+.avis .box-container .box .comment{
+    color:#666;
+    font-size: 1.4rem;
+    padding:16px;
+}

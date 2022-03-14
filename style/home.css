@@ -1,0 +1,41 @@
+
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ background: url(http://ydirection.com/Array/assets/images/big.png) no-repeat;
+
+    background-position: center;
+    height: 70vh;
+}
+
+.home .image img{
+    width:40vw;
+    animation: float 3s linear infinite;
+	     
+}
+
+
+
+.home .content h3{
+    font-size: 5.5rem;
+    color:#333;
+    text-transform: uppercase;
+	    text-align: center;
+}
+
+.home .content h3 span{
+    color:var(--pink);
+    text-transform: uppercase;
+	    text-align: center;
+	    
+}
+
+.home .content p{
+    font-size: 16px;
+    color:#666;
+    padding:16px 0;
+	    background-image:url(../images/background.jpg) repeat;
+		    text-align: center;
+}
