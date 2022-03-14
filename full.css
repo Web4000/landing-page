@@ -125,7 +125,7 @@ menu label{
 
 
 .banner .content h3{
-    font-size: 32px;
+    font-size: 40px;
     color:#333;
     text-transform: uppercase;
 	    text-align: center;
@@ -235,14 +235,14 @@ menu label{
     padding:16px;
 }
 
-.propal .box-container{
+.prix .box-container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.propal .box-container .box{
+.prix .box-container .box{
     flex:1 1 250px;
     margin:16px;
     padding:16px;
@@ -254,43 +254,43 @@ menu label{
     padding-bottom: 48px;
 }
 
-.propal .box-container .box:nth-child(2),
-.propal .box-container .box:hover{
+.prix .box-container .box:nth-child(2),
+.prix .box-container .box:hover{
     border:.32px solid var(--bluelight);
 }
 
-.propal .box-container .box .title{
+.prix .box-container .box .title{
     color:var(--blue);
     font-size: 16px;
     padding-top: 16px;
 }
 
-.propal .box-container .box .price{
+.prix .box-container .box .price{
     font-size: 25px;
     color:var(--bluelight);
     padding:16px 0;
 }
 
-.propal .box-container .box .price span{
+.prix .box-container .box .price span{
     font-size: 32px;
 }
 
-.propal .box-container .box ul{
+.prix .box-container .box ul{
     padding:16px 0;
     list-style: none;
 }
 
-.propal .box-container .box ul li{
+.prix .box-container .box ul li{
     font-size: 14px;
     color:#666;
     padding:12px 0;
 }
 
-.propal .box-container .box ul li .fa-check{
+.prix .box-container .box ul li .fa-check{
     color:lightgreen;
 }
 
-.propal .box-container .box ul li .fa-times{
+.prix .box-container .box ul li .fa-times{
     color:tomato;
 }
 
