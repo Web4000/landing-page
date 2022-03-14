@@ -44,7 +44,7 @@ section{
     font-size: 16;
     color:#fff;
     cursor: pointer;
-    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
+    box-shadow: 3px 3px rgba(0,0,0,.1);
     transition: all .3s linear;
 }
 
@@ -58,7 +58,7 @@ section{
     color:transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    font-size: 3.5rem;
+    font-size: 36px;
     text-transform: uppercase;
     padding:16px;
 }
@@ -68,7 +68,7 @@ menu{
     top:0; left:0;
     width:100%;
     background:#fff;
-    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
+    box-shadow: 1px 1px rgba(0,0,0,.1);
     padding:32px 9%;
     display: flex;
     align-items: center;
@@ -86,7 +86,7 @@ menu .logo span{
 }
 
 menu .navbar a{
-    font-size: 26pxrem;
+    font-size: 16px;
     margin-left: 32px;
     color:var(--blue);
 }
@@ -126,7 +126,7 @@ menu label{
 
 
 .home .content h3{
-    font-size: 5.5rem;
+    font-size: 40px;
     color:#333;
     text-transform: uppercase;
 	    text-align: center;
@@ -155,20 +155,20 @@ menu label{
 }
 
 .blog .box-container .box{
-    flex:1 1 30rem;
+    flex:1 1 200px;
     background:#fff;
-    border-radius: .5rem;
+    border-radius: 5%;
     border:.16px solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
-    margin:1.5rem;
+    box-shadow: 3px 3px rgba(0,0,0,.1);
+    margin:16px;
     padding:48px 32px;
-    border-radius: .5rem;
+    border-radius: 5%;
     text-align: center;
     transition: .2s linear;
 }
 
 .blog .box-container .box img{
-    height: 15rem;
+    height: 150px;
 }
 
 .blog .box-container .box h3{
@@ -198,15 +198,15 @@ menu label{
     text-align: center;
     position: relative;
     border:.16px solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
-    flex:1 1 30rem;
-    border-radius: .5rem;
+    box-shadow: 3px 3px rgba(0,0,0,.1);
+    flex:1 1 250px;
+    border-radius: 5%;
 }
 
 .avis .box-container .box .fa-quote-right{
     position: absolute;
     top:16px; right:32px;
-    font-size: 8rem;
+    font-size: 50px;
     color:var(--bluelight);
     opacity: .3;
 }
@@ -214,8 +214,8 @@ menu label{
 .avis .box-container .box .user img{
     border-radius: 50%;
     object-fit: cover;
-    height: 7rem;
-    width:7rem;
+    height: 50px;
+    width:50px;
     margin-top: 32px;
 }
 
@@ -226,13 +226,13 @@ menu label{
 
 .avis .box-container .box .user .stars i{
     color:var(--blue);
-    font-size: 1.5rem;
+    font-size: 16px;
     padding:16px 0;
 }
 
 .avis .box-container .box .comment{
     color:#666;
-    font-size: 1.4rem;
+    font-size: 14px;
     padding:16px;
 }
 
@@ -244,13 +244,13 @@ menu label{
 }
 
 .prix .box-container .box{
-    flex:1 1 27rem;
+    flex:1 1 250px;
     margin:16px;
     padding:16px;
     background:#fff;
     border:.16px solid rgba(0,0,0,.2);
-    box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
-    border-radius: .5rem;
+    box-shadow: 3px 3px rgba(0,0,0,.1);
+    border-radius: 5px;
     text-align: center;
     padding-bottom: 48px;
 }
@@ -262,12 +262,12 @@ menu label{
 
 .prix .box-container .box .title{
     color:var(--blue);
-    font-size: 2.5rem;
+    font-size: 16px;
     padding-top: 16px;
 }
 
 .prix .box-container .box .price{
-    font-size: 4rem;
+    font-size: 25px;
     color:var(--bluelight);
     padding:16px 0;
 }
@@ -309,12 +309,12 @@ menu label{
 }
 
 .footer .box-container .box{
-    flex:1 1 25rem;
+    flex:1 1 250px;
     margin:32px;
 }
 
 .footer .box-container .box h3{
-    font-size: 2.5rem;
+    font-size: 20px;
     padding:16px 0;
     color:#fff;
     text-decoration: underline;
@@ -322,15 +322,15 @@ menu label{
 }
 
 .footer .box-container .box p{
-    font-size: 1.5rem;
-    padding:.5rem 0;
+    font-size: 14px;
+    padding:10px 0;
     color:#eee;
 }
 
 .footer .box-container .box a{
     display: block;
-    font-size: 1.5rem;
-    padding:.5rem 0;
+    font-size: 16px;
+    padding:10px 0;
     color:#eee;
 }
 
@@ -344,15 +344,15 @@ menu label{
 }
 
 .footer .box-container .box .info i{
-    margin:.5rem 0;
+    margin:16px 0;
     margin-right: 16px;
     border-radius: 50%;
     background:#fff;
     color:var(--bluelight);
-    font-size: 1.5rem;
-    height:4.5rem;
-    width:4.5rem;
-    line-height: 4.5rem;
+    font-size: 16px;
+    height:40px;
+    width:40px;
+    line-height: 40px;
     text-align: center;
 }
 
@@ -362,7 +362,7 @@ menu label{
     letter-spacing: .16px;
     color:#fff;
     border-top: .16px solid #fff5;
-    padding:2.5rem 16px;
+    padding:16px 16px;
     text-align: center;
 }
 
@@ -393,7 +393,7 @@ menu label{
     
     section{
         padding:0 3%;
-        padding-top: 7.5rem;
+        padding-top: 100px;
         padding-bottom: 32px;
     }
 
@@ -413,7 +413,7 @@ menu label{
         background:#fff;
         padding:16px 32px;
         border-top: .16px solid rgba(0,0,0,.2);
-        box-shadow: 0 .5rem 16px rgba(0,0,0,.1);
+        box-shadow: 3px 3px rgba(0,0,0,.1);
         transform-origin: top;
         transform: scaleY(0);
         opacity: 0;
@@ -444,11 +444,11 @@ menu label{
     }
 
     .home .content h3{
-        font-size: 3.6rem;
+        font-size: 36px;
     }
 
     .home .content p{
-        font-size: 1.5rem;
+        font-size: 14px;
     }
 
    
